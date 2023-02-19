@@ -1,0 +1,70 @@
+.inputContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px 32px 0px;
+}
+
+.inputContainer input {
+  height: 52px;
+  width: 311px;
+  border-radius: 4px;
+  padding: 15px 16px 15px 16px;
+  border: 1.5px solid #999C9F;
+}
+
+.pinGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 32px 0px 33.04px;
+}
+
+.leftPart {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10.13px;
+}
+
+.saveButton {
+  height: 54px;
+  width: 311px;
+  border-radius: 4px;
+  background: #21A7F999;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 400px;
+}
+
+.buttonContainer a {
+  height: 22px;
+  width: 58px;
+  border-radius: nullpx;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+  text-decoration: none;
+  color: #21A7F9;
+  margin-top: 32px;
+  padding-bottom: 54px;
+}
+
+.buttonContainer a:hover {
+  text-decoration: underline;
+  text-decoration-color: #21A7F9;
+}
